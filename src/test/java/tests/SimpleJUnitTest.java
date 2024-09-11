@@ -43,7 +43,7 @@ public class SimpleJUnitTest {
 
     @AfterEach
     void afterEach() {
-        System.out.println("###    afterEach()\n");
+        System.out.println("### afterEach()\n");
         result = 0;
     }
 

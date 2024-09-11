@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c60d2c7-3479-48fd-a643-8dab9c07bfaf" name="Changes" comment="added build.gradle">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TextBoxTests.java" afterDir="false" />
+    <list default="true" id="5c60d2c7-3479-48fd-a643-8dab9c07bfaf" name="Changes" comment="add test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_4/SelenideRepositorySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CssXpathExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SimpleJUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SimpleJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SimpleJUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +23,17 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demoqa-tests-30" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -65,7 +73,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TextBoxTests.fillFormTest">
+  <component name="RunManager" selected="Gradle.SelenideRepositorySearch.shouldFindSelenideRepositorySearch">
+    <configuration name="SelenideRepositorySearch.shouldFindSelenideRepositorySearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;lesson_4.SelenideRepositorySearch.shouldFindSelenideRepositorySearch&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SimpleJUnitTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -137,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SelenideRepositorySearch.shouldFindSelenideRepositorySearch" />
         <item itemvalue="Gradle.TextBoxTests.fillFormTest" />
         <item itemvalue="Gradle.SimpleJUnitTest" />
         <item itemvalue="Gradle.SimpleJUnitTest.successfulSearchTest" />
@@ -180,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725990149849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add test">
+      <created>1726042931523</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726042931523</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +236,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="added build.gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="added build.gradle" />
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
 </project>
