@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c60d2c7-3479-48fd-a643-8dab9c07bfaf" name="Changes" comment="add test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_4/SelenideRepositorySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CssXpathExamples.java" afterDir="false" />
+    <list default="true" id="5c60d2c7-3479-48fd-a643-8dab9c07bfaf" name="Changes" comment="add lesson 4 code">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson_4/BestContributorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SimpleJUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SimpleJUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,30 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SelenideRepositorySearch.shouldFindSelenideRepositorySearch">
+  <component name="RunManager" selected="Gradle.BestContributorTest.checkBestContributor">
+    <configuration name="BestContributorTest.checkBestContributor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;lesson_4.BestContributorTest.checkBestContributor&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SelenideRepositorySearch.shouldFindSelenideRepositorySearch" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,6 +189,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BestContributorTest.checkBestContributor" />
         <item itemvalue="Gradle.SelenideRepositorySearch.shouldFindSelenideRepositorySearch" />
         <item itemvalue="Gradle.TextBoxTests.fillFormTest" />
         <item itemvalue="Gradle.SimpleJUnitTest" />
@@ -219,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1726042931523</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add lesson 4 code">
+      <created>1726085809681</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726085809681</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +266,7 @@
     <MESSAGE value="add .gitignore" />
     <MESSAGE value="added build.gradle" />
     <MESSAGE value="add test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test" />
+    <MESSAGE value="add lesson 4 code" />
+    <option name="LAST_COMMIT_MESSAGE" value="add lesson 4 code" />
   </component>
 </project>
